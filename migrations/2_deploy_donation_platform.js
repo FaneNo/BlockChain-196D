@@ -1,4 +1,4 @@
-const DonationPlatform = artifact.required("./DonationPlatform.sol");
+const DonationPlatform = artifacts.require("./DonationPlatform.sol");
 
 module.exports = function(deployer) {
 	deployer.deploy(DonationPlatform);
